@@ -1,0 +1,29 @@
+
+<div layout="column" style="height:100%;" >
+    <section layout="row"  flex>
+
+        <md-sidenav
+
+        class="md-sidenav-left"
+        md-component-id="left"
+        md-is-locked-open="$mdMedia('gt-md')"
+        md-disable-backdrop md-whiteframe="4"
+        ng-cloak>
+            <md-toolbar class="md-theme-indigo" hide-gt-md>
+                <h1 class="md-toolbar-tools"><ng-md-icon icon="reorder" style="fill:white" size="40" ></ng-md-icon>Menu</h1>
+            </md-toolbar>
+            <md-content layout-padding >
+                <div>
+                    <div ng-include="'pages/menu.html'"></div>
+                </div>
+
+        </md-sidenav>
+        <section layout="row" flex>
+            <md-content flex layout-padding>
+                <div layout="column" layout-fill layout-align="top center">
+                    <div layout="column" flex layout-fill ui-view ></div>
+                </div>
+            </md-content>
+        </section>
+
+</div>
