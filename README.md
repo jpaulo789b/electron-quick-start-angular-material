@@ -1,8 +1,8 @@
-# electron-quick-start
+# electron-quick-start-angular-material
 
 **Clone and run for a quick way to see an Electron in action.**
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+This is a minimal Electron  template application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
 **Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
 
@@ -20,9 +20,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/electron/electron-quick-start-angular-material
 # Go into the repository
-cd electron-quick-start
+cd electron-quick-start-angular-material
 # Install dependencies and run the app
 npm install && npm start
 ```
@@ -34,7 +34,10 @@ Learn more about Electron and its API in the [documentation](http://electron.ato
 For more example apps, see the
 [list of boilerplates](http://electron.atom.io/community/#boilerplates)
 created by the awesome electron community.
-
+#### Screen Shots
+![alt IMG 01](https://raw.githubusercontent.com/jpaulo789b/electron-quick-start-angular-material/master/01.png)
+![alt IMG 02](https://raw.githubusercontent.com/jpaulo789b/electron-quick-start-angular-material/master/02.png)
+![alt IMG 03](https://raw.githubusercontent.com/jpaulo789b/electron-quick-start-angular-material/master/03.png)
 #### License [CC0 (Public Domain)](LICENSE.md)
 # electron-quick-start-angular-material
 # electron-quick-start-angular-material
